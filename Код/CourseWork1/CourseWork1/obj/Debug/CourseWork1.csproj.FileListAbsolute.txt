@@ -1,0 +1,94 @@
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\bin\Debug\CourseWork1.exe.config
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\bin\Debug\CourseWork1.exe
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\bin\Debug\CourseWork1.pdb
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\App.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1_MarkupCompile.cache
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1_MarkupCompile.lref
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\MainWindow.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.g.resources
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.exe
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.pdb
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\RegistrationWindow1.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\RegistrationWindow1.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\AddVisitWindow2.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\AddVisitWindow2.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DeleteDoctorWindow3.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DeleteDoctorWindow3.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\DocumentsWindow4xaml.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\DocumentsWindow4xaml.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\CertificatePage2.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\SickleavePage1.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\CertificatePage2.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\SickleavePage1.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\WorkScheduleWindow5.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\WorkScheduleWindow5.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\OtherWindow6.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\OtherWindow6.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page1.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page1.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page2.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page2.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page3.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page3.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page4.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page4.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page5.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page5.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page6.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page6.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page7.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page7.baml
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page8.g.cs
+C:\Users\Admin\OneDrive\Робочий стіл\Навчання\2 семестр\ОП\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page8.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\bin\Debug\CourseWork1.exe.config
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\bin\Debug\CourseWork1.exe
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\bin\Debug\CourseWork1.pdb
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\AddVisitWindow2.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DeleteDoctorWindow3.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\CertificatePage2.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\DocumentsWindow4xaml.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\SickleavePage1.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\OtherWindow6.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page1.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page2.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page3.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page4.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page5.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page6.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page7.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page8.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\RegistrationWindow1.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\WorkScheduleWindow5.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1_MarkupCompile.cache
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1_MarkupCompile.lref
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\AddVisitWindow2.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DeleteDoctorWindow3.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\CertificatePage2.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\DocumentsWindow4xaml.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\DocumentsWin4\SickleavePage1.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\OtherWindow6.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page1.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page2.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page3.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page4.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page5.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page6.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page7.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\OtherWin6\Page8.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\RegistrationWindow1.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\WorkScheduleWindow5.baml
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.g.resources
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.Properties.Resources.resources
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.exe
+C:\Users\Admin\source\repos\Курсова робота\Код\CourseWork1\CourseWork1\obj\Debug\CourseWork1.pdb

@@ -1,0 +1,66 @@
+﻿<Window x:Class="CourseWork1.RegistrationWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork1"
+        mc:Ignorable="d"
+        Title="Вікно реєстрації" Height="700" Width="1200"
+        Background="#FFF4BBBB" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.6*"/>
+            <ColumnDefinition Width="0.8*"/>
+            <ColumnDefinition Width="0.7*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.2*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="Comic Sans MS" Content="Назва поля"/>
+        <Label Grid.Row="0" Grid.Column="1" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="Comic Sans MS" Content="Поле для введення"/>
+        <Label Grid.Row="0" Grid.Column="2" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="Comic Sans MS" Content="Приклад коректних&#xD;&#xA;           даних"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="Ім'я"/>
+        <Label Grid.Row="2" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="Прізвище"/>
+        <Label Grid.Row="3" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="По батькові"/>
+        <Label Grid.Row="4" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="Адреса"/>
+        <Label Grid.Row="5" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="Стать"/>
+        <Label Grid.Row="6" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="Вік"/>
+        <Label Grid.Row="7" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="Страховий поліс"/>
+        <Label Grid.Row="8" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Content="Дата"/>
+
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="TB_Name_1" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" KeyUp="TB_Name_1_KeyUp"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="TB_Surname_2" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" KeyUp="TB_Surname_2_KeyUp"/>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="TB_Secname_3" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" KeyUp="TB_Secname_3_KeyUp"/>
+        <TextBox Grid.Row="4" Grid.Column="1" x:Name="TB_Address_4" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" KeyUp="TB_Address_4_KeyUp"/>
+        <TextBox Grid.Row="5" Grid.Column="1" x:Name="TB_Sex_5" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" KeyUp="TB_Sex_5_KeyUp"/>
+        <TextBox Grid.Row="6" Grid.Column="1" x:Name="TB_Age_6" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" KeyUp="TB_Age_6_KeyUp"/>
+        <TextBox Grid.Row="7" Grid.Column="1" x:Name="TB_Police_7" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" KeyUp="TB_Police_7_KeyUp"/>
+        <TextBox Grid.Row="8" Grid.Column="1" x:Name="TB_Date_8" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" LostFocus="TB_Date_8_LostFocus"/>
+
+        <TextBox Grid.Row="1" Grid.Column="2" Margin="8" Text="Іван" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+        <TextBox Grid.Row="2" Grid.Column="2" Margin="8" Text="Защик" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+        <TextBox Grid.Row="3" Grid.Column="2" Margin="8" Text="Олександрович" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+        <TextBox Grid.Row="4" Grid.Column="2" Margin="8" Text="вул. Вишнева 47/1" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+        <TextBox Grid.Row="5" Grid.Column="2" Margin="8" Text="Чоловік" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+        <TextBox Grid.Row="6" Grid.Column="2" Margin="8" Text="18" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+        <TextBox Grid.Row="7" Grid.Column="2" Margin="8" Text="AB1234CD" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+        <TextBox Grid.Row="8" Grid.Column="2" Margin="8" Text="25.04.2004" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+
+        <Button Grid.Row="6" Grid.Column="3" Margin="60,50,60,20" FontSize="28" Cursor="Hand" Content="Додати дані" FontFamily="Comic Sans MS" Click="Button_Insert_Click" Grid.RowSpan="2"/>
+        <Button Grid.Row="8" Grid.Column="3" Margin="20.2,1,24.6,9.4" FontSize="30" Cursor="Hand" Content="Back" FontFamily="Algerian" Background="#FFF43122" Click="Button_Back_Click"/>
+
+        <DataGrid Name="DataGrid1" Grid.Column="3" Grid.RowSpan="7" Margin="0,0,0,45"/>
+    </Grid>
+
+</Window>

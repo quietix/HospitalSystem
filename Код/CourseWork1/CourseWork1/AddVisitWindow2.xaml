@@ -1,0 +1,71 @@
+﻿<Window x:Class="CourseWork1.AddVisitWindow2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork1"
+        mc:Ignorable="d"
+        Title="Додавання відвідування" Height="700" Width="1200"
+        Background="#FFF4BBBB" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.1*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <DataGrid x:Name="DataGrid1"/>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="1" Grid.Column="0" Margin="30,15,30,15" FontSize="18" Cursor="Hand" Content="Додати дані" FontFamily="Comic Sans MS" Click="Button_Insert_Click" RenderTransformOrigin="0.5,0.502"/>
+                <Button Grid.Row="1" Grid.Column="1" Margin="5,15,5,15" FontSize="18" Cursor="Hand" Content="Заповнити даними&#xD;&#xA; за замовчуванням" FontFamily="Comic Sans MS" Click="Button_SetDafaultValues_Click"/>
+                <Button Grid.Row="1" Grid.Column="2" Margin="30,15,30,15" FontSize="30" Cursor="Hand" Content="Back" FontFamily="Algerian" Background="#FFF43122" Click="Button_Back_Click"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="1.35*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="Comic Sans MS" Content="Назва поля"/>
+            <Label Grid.Row="0" Grid.Column="1" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="Comic Sans MS" Content="Поле для введення"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Оберіть пацієнта"/>
+            <Label Grid.Row="2" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Дата відвідування"/>
+            <Label Grid.Row="3" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Скарги"/>
+            <Label Grid.Row="4" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Діагноз"/>
+            <Label Grid.Row="5" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Направлення"/>
+            <Label Grid.Row="6" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Має лікарняний лист?"/>
+            <Label Grid.Row="7" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Тривалість лікарняного (дні)"/>
+            <Label Grid.Row="8" Grid.Column="0" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Оберіть лікаря"/>
+
+            <ComboBox Grid.Row="1" Grid.Column="1" Name="CB_Patient_1" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB_Patient_1_DropDownClosed"/>
+            <ComboBox Grid.Row="5" Grid.Column="1" Name="CB_Direction_2" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB_Direction_2_DropDownClosed"/>
+            <ComboBox Grid.Row="8" Grid.Column="1" Name="CB_Doctor_3" IsEnabled="False" Margin="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB_Doctor_3_DropDownClosed"/>
+
+            <TextBox Grid.Row="2" Grid.Column="1" x:Name="TB_Date_1" Text="17.04.2022" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" AcceptsReturn="True" MouseDoubleClick="TB_MouseDoubleClick" LostFocus="TB_Date_1_LostFocus"/>
+            <TextBox Grid.Row="3" Grid.Column="1" x:Name="TB_Complaints_2" Text="Головний біль" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" AcceptsReturn="True" MouseDoubleClick="TB_MouseDoubleClick" KeyUp="TB_Complaints_2_KeyUp"/>
+            <TextBox Grid.Row="4" Grid.Column="1" x:Name="TB_Diagnosis_3" Text="Мігрень" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" AcceptsReturn="True" MouseDoubleClick="TB_MouseDoubleClick" KeyUp="TB_Diagnosis_3_KeyUp"/>
+            <TextBox Grid.Row="6" Grid.Column="1" x:Name="TB_HasSickleave_4" Text="Ні" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" AcceptsReturn="True" MouseDoubleClick="TB_MouseDoubleClick" KeyUp="TB_HasSickleave_4_KeyUp" TextChanged="TB_HasSickleave_4_TextChanged"/>
+            <TextBox Grid.Row="7" Grid.Column="1" x:Name="TB_SickleaveDuration_5" Text="10" IsEnabled="False" Margin="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" AcceptsReturn="True" MouseDoubleClick="TB_MouseDoubleClick" KeyUp="TB_SickleaveDuration_5_KeyUp"/>
+        </Grid>
+    </Grid>
+</Window>

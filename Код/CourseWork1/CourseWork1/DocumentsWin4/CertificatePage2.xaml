@@ -1,0 +1,39 @@
+﻿<Page x:Class="CourseWork1.DocumentsWin4.CertificatePage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CourseWork1.DocumentsWin4"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1200"
+      Title="Сторінка видачі довідок"
+      Background="#FFF4BBBB">
+
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.ColumnSpan="1" Content="Видача довідок" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40" FontFamily="Comic Sans MS" Margin="0,35,0,0"/>
+        <DataGrid Grid.Column="1" Name="DataGrid1" Margin="0,40,0,80"/>
+        <Grid Margin="0,130,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="1.3*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Content="     Пацієнт, якому&#xD;&#xA;виписується довідка"/>
+            <Label Grid.Row="1" Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Content="Причина,через яку&#xD;&#xA;пацієнту виписали&#xD;&#xA;          довідку"/>
+            <Label Grid.Row="2" Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Content="  Дата, коли пацієнт&#xD;&#xA;звернувся з заданою&#xD;&#xA;        причиною"/>
+
+            <ComboBox Name="CB1_Patients" Grid.Row="0" Grid.Column="1" Margin="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB1_Patients_DropDownClosed"/>
+            <ComboBox IsEnabled="False" Name="CB2_Complaints" Grid.Row="1" Grid.Column="1" Margin="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB2_Complaints_DropDownClosed"/>
+            <ComboBox IsEnabled="False" Name="CB3_Date" Grid.Row="2" Grid.Column="1" Margin="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB3_Date_DropDownClosed"/>
+        </Grid>
+        <Label Content="Відвідування за останній рік" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" VerticalAlignment="Bottom" Height="61" Width="350" Grid.Column="1" Margin="0,0,0,10" FontFamily="Comic Sans MS"/>
+    </Grid>
+</Page>

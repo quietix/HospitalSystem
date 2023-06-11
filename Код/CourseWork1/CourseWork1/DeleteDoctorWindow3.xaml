@@ -1,0 +1,59 @@
+﻿<Window x:Class="CourseWork1.DeleteDoctorWindow3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork1"
+        mc:Ignorable="d"
+        Title="Завідувач поліклінікою" Height="700" Width="1200"
+        Background="#FFF4BBBB" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.1*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Margin="0,0,0,29">
+            <DataGrid x:Name="DataGrid1"/>
+        </Grid>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="1.35*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Margin="5,10,5,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="Comic Sans MS" Content="Опис поля"/>
+            <Label Grid.Row="0" Grid.Column="1" Margin="5,10,5,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="Comic Sans MS" Content="Поле для вибору даних"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content=" Лікар для&#xA;звільнення"/>
+            <Label Grid.Row="2" Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content="Пацієнт для передачі&#xA;     іншому лікарю"/>
+            <Label Grid.Row="3" Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Content=" Лікар, що приймає&#xD;&#xA;переданих пацієнтів"/>
+
+            <ComboBox Grid.Row="1" Grid.Column="1" Name="CB_DoctorToDelete_1" Margin="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB_Patient_1_DropDownClosed"/>
+            <ComboBox Grid.Row="2" Grid.Column="1" Name="CB_PatientToTransfer_2" Margin="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB_Direction_2_DropDownClosed"/>
+            <ComboBox Grid.Row="3" Grid.Column="1" Name="CB_TakingDoctor_3" Margin="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" DropDownClosed="CB_TakingDoctor_3_DropDownClosed"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="20" Grid.Column="0" FontSize="18" Cursor="Hand" Content="Показати всіх&#xD;&#xA;      лікарів" FontFamily="Comic Sans MS" Click="Button_ShowAllDoctors_Click"/>
+            <Button Margin="20" Grid.Column="1" FontSize="18" Cursor="Hand" Content="Показати всіх&#xD;&#xA;     пацієнтів" FontFamily="Comic Sans MS" Click="Button_ShowAllPatients_Click"/>
+            <Button Margin="20" Grid.Column="2" FontSize="18" Cursor="Hand" Content="Передати&#xD;&#xA; пацієнта" FontFamily="Comic Sans MS" Click="Button_TransferPatient_Click"/>
+            <Button Margin="20" Grid.Column="3" FontSize="18" Cursor="Hand" Content="Видалити лікаря" FontFamily="Comic Sans MS" Click="Button_DeleteDoctor_Click"/>
+            <Button Margin="20" Grid.Column="4" FontSize="30" Cursor="Hand" Content="Back" FontFamily="Algerian" Background="#FFF43122" Click="Button_Back_Click"/>
+        </Grid>
+    </Grid>
+</Window>
